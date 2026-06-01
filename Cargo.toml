@@ -1,0 +1,17 @@
+[package]
+name = "lau-connes-spectral-triple"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-connes-spectral-triple"
+description = "Connes' spectral triple (A,H,D) — the agents built noncommutative geometry without recognizing it"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+num-complex = "0.4"
+num-traits = "0.2"
+
+[dev-dependencies]
+approx = "0.5"
